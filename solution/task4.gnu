@@ -1,4 +1,5 @@
 set terminal pngcairo enhanced
+set terminal png size 1200, 600
 set output 'task4.png'
 set xlabel "Дата"
 set ylabel "Курс (руб.)"
@@ -7,4 +8,4 @@ set timefmt "%Y-%m-%d"
 set format x "%d-%b-%Y"
 set xtics rotate by -45
 set grid
-plot 'task4-data.txt' using 1:2 with linespoints linecolor rgb "purple" title 'USD/RUB'
+plot 'data/task4-data.txt' using 1:2 with linespoints linecolor rgb "purple" title 'USD/RUB'
