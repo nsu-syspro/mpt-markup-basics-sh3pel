@@ -1,6 +1,3 @@
-set terminal pngcairo enhanced
-set terminal png size 1200, 600
-set output 'task4.png'
 set xlabel "Дата"
 set ylabel "Курс (руб.)"
 set xdata time
